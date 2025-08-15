@@ -182,7 +182,8 @@ export default function RoomsPage() {
   if (error) return <div className="p-6 text-center text-red-600">ผิดพลาด: {error}</div>;
 
   return (
-    <div className="max-w-6xl mx-auto p-6 relative bg-gradient-to-t from-sky-600 to-indigo-700 rounded-2xl">
+    <div className="mx-auto p-4 sm:p-6 lg:p-8 relative bg-gradient-to-t from-sky-600 to-indigo-700 rounded-xl sm:rounded-2xl shadow-lg w-full 
+    max-w-full sm:max-w-3xl md:max-w-5xl lg:max-w-6xl">
       <h1 className="text-[25px] font-bold mb-6 text-white">รายชื่อห้องสอบ</h1>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
